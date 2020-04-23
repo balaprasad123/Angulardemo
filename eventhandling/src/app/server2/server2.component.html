@@ -1,0 +1,16 @@
+
+<div class="container" class="div">
+
+<h1 class="h1" >This the practice event handling  and  data binding </h1><br>
+
+<label>Add mathod practice</label><br>
+
+<input type="text" class="form-control" [(ngModel)]="serverName"><br><br>
+
+<button class="btn btn-info" [disabled]="serverName ==''" (click)="Server2()">Server2</button><br>
+
+<p>{{msg}}</p>
+
+<p>{{"Recently added this server :"+listServer}}</p>
+
+</div> 

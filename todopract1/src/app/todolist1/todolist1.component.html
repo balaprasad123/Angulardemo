@@ -1,0 +1,25 @@
+<div class="jumbotron">
+    <button class="btn btn-danger" value="login" (click)="display()">Display</button>
+</div>
+<div class="container">
+    <table class="table table-bordered table-stripped table-hover" >
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Division</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let students of student">
+            <td>{{students.id}}</td>
+            <td>{{students.name}}</td>
+            <td>{{students.age}}</td>
+            <td>{{students.division}}</td>
+            <td><a routerLink="/">edit</a><a routerLink="/">delete</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>

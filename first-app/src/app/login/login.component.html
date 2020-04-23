@@ -1,0 +1,14 @@
+
+
+
+<div>
+
+        <pre>
+          Usere Name <input type="text" [(ngModel)]="username" ><br>
+          password   <input type="text" [(ngModel)]="password"><br>
+                    <button (click)="handlLogin()">Login</button>
+            </pre>
+
+            <p *ngIf="!validate"> {{msg}} </p>
+    
+  </div>

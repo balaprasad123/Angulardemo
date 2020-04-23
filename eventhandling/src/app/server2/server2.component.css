@@ -1,0 +1,19 @@
+.h1{
+    
+    height: 70px;
+    width: 1000px;
+    margin: auto;
+    padding-top:10px;
+    text-align: center;
+
+    color: white;
+
+
+
+}
+.div{
+
+            background-color:darkgoldenrod;
+            text-align: center;
+            color: white;   
+}

@@ -1,0 +1,14 @@
+
+<div>
+
+        <pre>
+          Stusnet Name<input type="text" [(ngModel)]="studenetName" ><br>
+          Rool no :   <input type="text" [(ngModel)]="rollno"><br>
+                    <button (click)="handlLogin()">Student</button>
+            </pre>
+            
+            <p *ngIf="!validate"> {{msg}} </p>
+
+
+    
+  </div>

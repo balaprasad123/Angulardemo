@@ -1,0 +1,24 @@
+<!--
+<div class="container">
+    <br>
+<p>Contact Using input property</p>
+
+<label>Contact Name</label><br>
+<input type="text" class="form-control" (input)="updateLetterCase($event)"><br>
+
+<button class="btn btn-primary" (click)=handleContact()>Add Contact </button><br>
+<p>{{prasad}}</p>
+
+</div>  -->
+
+<br><br>
+
+            <input type="text" [(ngModel)]="mark">
+
+<div *ngIf="mark>45; else prasad"> You are pass</div>
+
+<ng-template #prasad>  
+    
+    <div>ur failed</div>
+
+</ng-template>

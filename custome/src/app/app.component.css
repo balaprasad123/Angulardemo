@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.h1{
+    height: 50px;
+    width: 800px;
+    background-color: brown;
+    color: white;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+
+    
+
+}

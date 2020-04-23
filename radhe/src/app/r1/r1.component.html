@@ -1,0 +1,19 @@
+
+<div class="conatiner" class="jumbotron">
+<div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+
+
+      <p *ngIf="status">{{massage}}</p>        
+        User name :&nbsp;  <input type="text" class="form-center" name="username"[(ngModel)]="userName"/> <br><br>
+        
+        Passowrd : &nbsp; &nbsp;<input type="password" class="form-center" name="username"[(ngModel)]="Passowrd"/><br>
+        <br>
+       
+        <button class="btn btn-primary" (click)="handling()">Login</button>
+    </div>
+    <div class="col-md-3"></div>
+
+</div>
+</div>

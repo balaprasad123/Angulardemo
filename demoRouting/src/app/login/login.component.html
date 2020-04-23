@@ -1,0 +1,20 @@
+
+
+<br/>
+<div class="container">
+    <div class="row">
+    
+        <div class="col-md-7">
+            <pre>
+                <p *ngIf="!status"> {{msg}}</p>
+            <label for="username"> Username </label><br/>
+            <input type="text" class="form-control" [(ngModel)]="username"/> <br/>
+            
+            <label for="password"> Password </label><br/>
+            <input type="password" class="form-control" [(ngModel)]="password" /> <br/>
+
+            <button class="btn btn-primary" (click)="handleLogin"></button>
+            </pre>
+        </div>
+    </div>
+</div>
